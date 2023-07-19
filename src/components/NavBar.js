@@ -40,7 +40,7 @@ export const NavBar = () => {
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
           href="https://twitter.com"
-          target="_blank"
+          target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3"
@@ -51,7 +51,7 @@ export const NavBar = () => {
           href="https://github.com"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          target="_blank"
+          target={"_blank"}
           className="w-6 mx-3"
         >
           <GithubIcon />
@@ -60,7 +60,7 @@ export const NavBar = () => {
           href="https://linkedin.com"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          target="_blank"
+          target={"_blank"}
           className="w-6 ml-3"
         >
           <LinkedInIcon />
